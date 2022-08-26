@@ -1,5 +1,5 @@
 import "./Header.css";
-import Login from "./Login";
+
 
 
 const Header = ()=>{
@@ -8,7 +8,7 @@ const Header = ()=>{
       //   🎬 Entertainment Hub 🎥
       // </span>
       <div className="g-sign">
-          <Login />
+      
         </div>
     );
 };
