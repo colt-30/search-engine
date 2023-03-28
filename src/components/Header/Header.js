@@ -1,15 +1,12 @@
 import "./Header.css";
 
-
-
-const Header = ()=>{
-    return (
-      // <><span onClick={() => window.scroll(0, 0)} className="header">
-      //   🎬 Entertainment Hub 🎥
-      // </span>
-      <div className="g-sign">
-      
-        </div>
-    );
+const Header = () => {
+  return (
+    <div className="g-sign">
+      <span onClick={() => window.scroll(0, 0)} className="header">
+        🎬 Entertainment Hub 🎥
+      </span>
+    </div>
+  );
 };
 export default Header;
